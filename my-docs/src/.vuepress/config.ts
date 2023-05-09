@@ -10,7 +10,7 @@ export default defineUserConfig({
       lang: "zh-CN",
       title: "程序厨",
       description: "酷爱做饭的程序员",
-      head: [['link', { rel: 'icon', href: '/images/logo.jpg/'}]],
+      head: [['link', { rel: 'icon', href: '/images/logo.jpg'}]],
     },
   },
   port: 80,
@@ -38,7 +38,7 @@ export default defineUserConfig({
       // 文章解锁后凭证的有效天数
       expires: 365,
       // 定时校验凭证有效性的时间间隔（秒）
-      interval: 60,
+      interval: 300,
       // 每篇文章随机添加引流工具的概率，有效范围在 0.1 ~ 1 之间，1 则表示所有文章默认都自动添加引流工具
       random: 1
     })
