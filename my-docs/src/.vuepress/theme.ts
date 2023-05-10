@@ -33,7 +33,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
       footer: "程序厨",
-      repo:"https://github.com/chefyuan/algorithm-base",
+      repo:"https://github.com/chefyuan/chengxuchu",
      
       displayFooter: true,
       

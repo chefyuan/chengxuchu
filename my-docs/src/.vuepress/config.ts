@@ -25,7 +25,7 @@ export default defineUserConfig({
       // 已申请的微信公众号回复关键词
       keyword: '程序厨',                    
       // 已申请的微信公众号二维码图片
-      qrcode: 'https://chengxuchu-1301103198.cos.ap-beijing.myqcloud.com/Photo/202305072306039.png',
+      qrcode: 'https://chengxuchu-1301103198.cos.ap-beijing.myqcloud.com/Photo/202305092253460.png',
       // 文章内容的 JS 选择器，若使用的不是官方默认主题，则需要根据第三方的主题来设置
       selector: 'div.theme-hope-content',
       // 自定义的 JS 资源链接，可用于 CDN 加速
