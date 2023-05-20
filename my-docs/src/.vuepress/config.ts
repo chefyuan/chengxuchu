@@ -23,7 +23,7 @@ export default defineUserConfig({
       
       head: 
       [['link', { rel: 'icon', href: '/images/logo.jpg'}],
-      ["script", { src: "/scripts/demo.js"}],
+      // ["script", { src: "/scripts/demo.js"}],
       ['meta', { name: 'baidu-site-verification', content: 'codeva-t9fUvv6fEU' }],
       [
         "script",
@@ -44,8 +44,11 @@ export default defineUserConfig({
 
   },
   
-  // alias: { "FooBar": path.resolve(__dirname, "./components/Foobar.vue"),
+  // alias: { "@theme-hope/components/FooterInfo": path.resolve(__dirname, "./components/FooterInfo.vue"),
   // },
+  alias: {
+    "@theme-hope/components/NormalPage": path.resolve(__dirname,"./components/NormalPage.vue")
+  },
   
   port: 80,
   theme,
@@ -94,7 +97,7 @@ export default defineUserConfig({
       debug:true,
     }),
 
-
+    
 
   ]
 });

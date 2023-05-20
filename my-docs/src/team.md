@@ -54,8 +54,9 @@ headerDepth: 3
 扫码我的二维码，注明来意 校招/社招 + 个人技术栈 + 个人简单介绍，我会尽快同意你的申请，拉你进群。
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <img src="https://chengxuchu-1301103198.cos.ap-beijing.myqcloud.com/Photo/202305052137794.png" alt="图片" style="zoom: 50%;" />
+  <img src="./image/wechat.jpg" alt="iamchuzi" style="zoom: 20%;" />
 </div>
 
+这个群一定对大家有所帮助
 
 

@@ -65,7 +65,7 @@ export const zhNavbar = navbar([
     ],
 },
 {
-  text: '面试基地',
+  text: '🌟面试基地',
   children: [
       {
           text: '1.Redis',
@@ -98,7 +98,7 @@ export const zhNavbar = navbar([
   ],
 },
 {
-  text: '校招指南',
+  text: '📚校招指南',
   children: [
       {
           text: '1.学习路线',
@@ -125,6 +125,10 @@ export const zhNavbar = navbar([
           link: "3-interview_guide/06-实用工具",
       }
   ],
+},
+{
+ text: '🔥抱团取暖',
+ link: 'team.md'
 }
   
 ]);

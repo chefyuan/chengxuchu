@@ -7,68 +7,69 @@ import { getDirname, path } from "@vuepress/utils";
 const __dirname = getDirname(import.meta.url);
 export default hopeTheme({
   hostname: "",
-  
+
   author: {
     name: "厨子",
     url: "https://github.com/chefyuan/chengxuchu",
   },
-  
+
   docsBranch: "master",
   repoLabel: "GitHub",
-  docsDir: "my-docs/src", 
+  docsDir: "my-docs/src",
 
-  
+
   iconAssets: "iconfont",
 
-  
+
   logo: "/images/logo.jpg",
   pure: true,
   // docsDir: "",
   print: false,
   fullscreen: false,
 
-  
+
   themeColor: {
     blue: "#2196f3",
     red: "#f26d6d",
     green: "#3eaf7c",
     orange: "#fb9b5f",
-  },   
-  
+  },
+
   locales: {
     "/": {
       // navbar
       navbar: zhNavbar,
       // sidebar
       sidebar: zhSidebar,
-      
-      repo:"https://github.com/chefyuan/chengxuchu",
-      footer:"<a href='https://mp.weixin.qq.com/s/FTPLjWsa46g8puwCyQ5qlQ'>百人面试交流群, 可以在公众号【程序厨】点击抱团取暖进入, 或点击该文字, 扫码进入</a>",
-      copyright:false,
-      displayFooter:true,
-      
+
+      repo: "https://github.com/chefyuan/chengxuchu",
+      footer: "<a href='https://mp.weixin.qq.com/s/FTPLjWsa46g8puwCyQ5qlQ'>百人面试交流群, 可以在公众号【程序厨】点击抱团取暖进入, 或点击该文字, 扫码进入</a>",
+      copyright: false,
+      displayFooter: true,
+
       //page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
-      },      
-      
+      },
+
     },
   },
-  
-  
+
+
+
   plugins: {
     // comment: {
     //   // @ts-expect-error: You should generate and use your own comment service
     //   provider: "Waline",
     // },
-    
+
     // all features are enabled for demo, only preserve features you need here
- 
-   
+
+
     photoSwipe: false,
-    
-    
-    
+
+
+
 
     mdEnhance: {
       align: true,
@@ -112,7 +113,7 @@ export default hopeTheme({
       vuePlayground: true,
     },
 
-    
+
 
     //uncomment these if you want a pwa
     pwa: {
@@ -171,4 +172,9 @@ export default hopeTheme({
       },
     },
   },
-});
+},
+
+
+{ custom: true },
+
+);

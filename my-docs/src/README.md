@@ -12,8 +12,8 @@ actions:
     link: base.md
     type: primary
 
-  - text: 校招/社招小队
-    link: team.md
+  - text: 赞赏名单
+    link: appreciate_list.md
 
 copyright: false
 
