@@ -46,3 +46,7 @@ footer: <a href="https://beian.miit.gov.cn" target="_blank">鲁ICP备2021037188�
 4. 书籍和算法题解都是有简到难，可以让大家感受自身的进步，而且还**组建了校招/社招小队**，抱团取暖，长期坚持。
 
 点击 【offer 我来啦】开始冲吧！
+
+<!-- <FooBar /> -->
+
+<img src="./image/chuzi.png" width="700" height="350" style="display: block; margin: auto;">

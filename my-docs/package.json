@@ -12,9 +12,15 @@
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.61",
-    "vue": "^3.2.47",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.61",
+    "vue": "3.2.47",
     "vuepress": "2.0.0-beta.61",
-    "vuepress-plugin-readmore-popular-next": "^2.0.0-beta.61.1",
+    "vuepress-plugin-readmore-popular-next": "2.0.0-beta.61.1",
+    "vuepress-plugin-seo2": "2.0.0-beta.208",
     "vuepress-theme-hope": "2.0.0-beta.208"
+  },
+  "dependencies": {
+    "@vuepress/plugin-register-components": "2.0.0-beta.61",
+    "vuepress-plugin-sitemap2": "2.0.0-beta.206"
   }
 }

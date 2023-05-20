@@ -1,22 +1,69 @@
 import { defineUserConfig } from "vuepress";
-
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { readmorePlugin } from 'vuepress-plugin-readmore-popular-next'
 import theme from "./theme.js";
+import { blog } from "vuepress-theme-hope";
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from '@vuepress/utils'
+import { sitemapPlugin } from "vuepress-plugin-sitemap2";
+
+// import { FooBar } from "./components/FooBar.vue";
+
+const __dirname = getDirname(import.meta.url);
+
 export default defineUserConfig({
   base: "/",
   shouldPrefetch:false,
+  
   locales: {
     "/": {
       lang: "zh-CN",
       title: "程序厨",
       description: "酷爱做饭的程序员",
-      head: [['link', { rel: 'icon', href: '/images/logo.jpg'}]],
+      
+      head: 
+      [['link', { rel: 'icon', href: '/images/logo.jpg'}],
+      ["script", { src: "/scripts/demo.js"}],
+      ['meta', { name: 'baidu-site-verification', content: 'codeva-t9fUvv6fEU' }],
+      [
+        "script",
+        {},
+        `
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?e3f7929fae135765220efa9e8bfe2d7a";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+          `
+      ]],
+      
     },
+  
+
   },
+  
+  // alias: { "FooBar": path.resolve(__dirname, "./components/Foobar.vue"),
+  // },
+  
   port: 80,
   theme,
+  
   plugins:[
 
+  
+    
+    // registerComponentsPlugin({
+    //   components: {
+    //     FooBar: path.resolve(__dirname, './components/FooBar.vue'),
+        
+    //   },
+    // }),
+    sitemapPlugin({
+      hostname:'www.chengxuchu.com',
+    }),
+    
     readmorePlugin({
       // 已申请的博客 ID
       blogId: '67962-1834575117932-974',
@@ -30,7 +77,7 @@ export default defineUserConfig({
       selector: 'div.theme-hope-content',
       // 自定义的 JS 资源链接，可用于 CDN 加速
       // 文章排除添加引流工具的 URL 规则，支持使用路径、通配符、正则表达式的匹配规则
-      excludes: { strExp: [], regExp: ['/team/*','/README/*','/base/*'] },
+      excludes: { strExp: [], regExp: ['/team/*','/README/*','/base/*','/timeline/*'] },
       // 是否反转 URL 排除规则的配置，即只有符合排除规则的文章才会添加引流工具
       reverse: false,
       // 文章内容的预览高度
@@ -41,6 +88,13 @@ export default defineUserConfig({
       interval: 300,
       // 每篇文章随机添加引流工具的概率，有效范围在 0.1 ~ 1 之间，1 则表示所有文章默认都自动添加引流工具
       random: 1
-    })
+    }), 
+    googleAnalyticsPlugin({
+      id: "G-B2BW1T1C3G",
+      debug:true,
+    }),
+
+
+
   ]
 });
