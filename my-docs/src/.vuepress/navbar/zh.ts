@@ -64,12 +64,13 @@ export const zhNavbar = navbar([
         },
     ],
 },
+
 {
   text: '🌟面试基地',
   children: [
       {
-          text: '1.Redis',
-          link: "/1-interview_base/01-Redis",
+        text: '1.Redis',
+        link: "/1-interview_base/01-Redis",
       },
       {
         text: '2.MySQL',
@@ -97,38 +98,45 @@ export const zhNavbar = navbar([
       },
   ],
 },
+
 {
   text: '📚校招指南',
   children: [
       {
           text: '1.学习路线',
-          link: "3-interview_guide/01-学习路线",
+          link: "/3-interview_guide/01-学习路线",
       },
       {
           text: '2.大厂面经',
-          link: "3-interview_guide/02-大厂面经",
+          link: "/3-interview_guide/02-大厂面经",
       },
       {
           text: '3.面试指南',
-          link: "3-interview_guide/03-面试指南",
+          link: "/3-interview_guide/03-面试指南",
       },
       {
           text: '4.心得感悟',
-          link: "3-interview_guide/04-心得感悟",
+          link: "/3-interview_guide/04-心得感悟",
       },
       {
           text: '5.优质项目',
-          link: "3-interview_guide/05-优质项目",
+          link: "/3-interview_guide/05-优质项目",
       },
       {
           text: '6.实用工具',
-          link: "3-interview_guide/06-实用工具",
+          link: "/3-interview_guide/06-实用工具",
       }
   ],
 },
+
 {
- text: '🔥抱团取暖',
- link: 'team.md'
-}
+    text: '🔥抱团取暖',
+    link: 'https://t.zsxq.com/0fjYIsW9Z'
+},
+
+{
+    text: '👍赞赏名单',
+    link: '/appreciate_list.md'
+},
   
 ]);

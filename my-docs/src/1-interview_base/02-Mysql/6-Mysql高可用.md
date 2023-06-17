@@ -1,7 +1,16 @@
 ---
 lang: zh-CN
 title: 6、MySQL 高可用
-description: 很细。
+description: MySQL 高可用面试题详解。
+
+category: 
+    - 数据库
+    - 原创
+    - 面试题
+    - MySQL
+    - 程序厨
+
+excerpt: MySQL 高可用面试题详解
 ---
 
 

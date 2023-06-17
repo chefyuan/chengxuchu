@@ -1,3 +1,21 @@
+---
+lang: zh-CN
+title: 08、Java 学习路线
+description: Java 学习路线
+
+category: 
+    - 校招面试
+    - 校招指南
+    - 互联网
+    - 程序员
+    - 学习路线
+    - Java 学习路线
+
+excerpt: Java 学习路线
+---
+
+
+
 # 08、Java 学习路线
 
 这篇文章时我请我朋友为大家写的，这个老哥贼牛批，希望这篇文章对大家有一丢丢帮助。

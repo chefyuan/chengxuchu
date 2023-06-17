@@ -1,7 +1,16 @@
 ---
 lang: zh-CN
 title: 2、前序遍历Morris
-description: 神级遍历Morris
+description: 前序遍历Morris
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 二叉树遍历
+
+excerpt: 二叉树前序遍历Morris
 ---
 
 

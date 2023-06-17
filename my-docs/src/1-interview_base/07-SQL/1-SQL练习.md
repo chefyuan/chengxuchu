@@ -1,7 +1,14 @@
 ---
 lang: zh-CN
 title: 1、SQL练习（1-10）
-description: 很细。
+description: MySQL 常考练习题
+
+category:
+    - MySQL
+    - SQL 练习
+    - 程序厨
+
+excerpt: MySQL 常考练习题
 ---
 
 注：该页题目均来自与[牛客网](https://www.nowcoder.com/)

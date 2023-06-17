@@ -1,7 +1,18 @@
 ---
 lang: zh-CN
 title: 3、移除K位数字
-description: 一遍就懂
+
+
+description: 刷题-栈和队列
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 刷题
+
+excerpt: 栈和队列
 ---
 ## 题目描述
 

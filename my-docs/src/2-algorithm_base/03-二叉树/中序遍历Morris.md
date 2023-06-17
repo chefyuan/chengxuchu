@@ -1,7 +1,16 @@
 ---
 lang: zh-CN
 title: 4、中序遍历Morris
-description: 看一遍就懂的中序遍历
+
+description: 二叉树中序遍历 Morris
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 二叉树遍历
+excerpt: 二叉树中序遍历 MOrris
 ---
 
 我们之前说过，前序遍历的 Morris 方法，如果已经掌握，今天中序遍历的 Morris 方法也就没有什么难度，仅仅修改了一丢丢。

@@ -1,7 +1,17 @@
 ---
 lang: zh-CN
 title: 2、和为K的子数组
-description: 一遍就懂
+
+description: 刷题-数组篇
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 刷题
+
+excerpt: 数组篇
 ---
 
 ## 题目描述

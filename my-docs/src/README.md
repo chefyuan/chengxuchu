@@ -6,14 +6,24 @@ heroImage: "/images/logo.jpg"
 heroText: 程序厨
 tagline: 相信我，这个网站一定能够对你有所帮助！！！
 
+description: 程序厨
+
+category: 
+    - 程序厨
+    - 程序厨
+    - 程序厨
+    - 程序厨
+    - 程序厨
+
+excerpt: 程序厨
 
 actions:
   - text: offer 我来啦！
     link: base.md
     type: primary
 
-  - text: 赞赏名单
-    link: appreciate_list.md
+  - text: 抱团取暖
+    link: "https://t.zsxq.com/0fjYIsW9Z"
 
 copyright: false
 

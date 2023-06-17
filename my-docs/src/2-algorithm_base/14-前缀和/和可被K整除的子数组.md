@@ -1,7 +1,18 @@
 ---
 lang: zh-CN
 title: 04、和可被K整除的子数组
-description: 可能是全网最细的堆排序。
+
+description: 刷题-前缀和
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 刷题
+
+excerpt: 单调队列前缀和
+
 ---
 
 

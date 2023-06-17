@@ -1,7 +1,17 @@
 ---
 lang: zh-CN
 title: 1、BF
-description: 最简单的字符串匹配算法。
+description: 最简单的字符串匹配算法 BF。
+
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 字符串匹配 
+
+excerpt: 字符串匹配 BF
 ---
 
 # BF

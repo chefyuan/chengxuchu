@@ -1,3 +1,21 @@
+---
+lang: zh-CN
+title: 06、MySQL 学习路线
+description: MySQL 学习路线
+
+category: 
+    - 校招面试
+    - 校招指南
+    - 互联网
+    - 程序员
+    - 学习路线
+    - MySQL 学习路线
+
+excerpt: MySQL 学习路线
+---
+
+
+
 # 06、MySQL 学习路线
 
 **原文链接：**[写了一个很硬的MySQL 学习路线](https://mp.weixin.qq.com/s/nGmND_KP5lmSbaNLo8r9iQ)

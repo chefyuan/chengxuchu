@@ -1,4 +1,18 @@
+---
+lang: zh-CN
+title: 1、JVM 类加载
+description: Java 类加载机制面试题详解。
 
+category:
+
+    - JVM
+    - 原创
+    - 面试题
+    - 类加载机制
+    - 程序厨
+
+excerpt: JVM 类加载机制，内存模型，双亲委派原则
+---
 
 # 1、JVM类加载
 

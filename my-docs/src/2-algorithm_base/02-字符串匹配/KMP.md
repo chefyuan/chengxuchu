@@ -2,6 +2,14 @@
 lang: zh-CN
 title: 3、KMP
 description: 被网友称为最喜细的 KMP 算法。
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 字符串匹配 
+
+excerpt: 字符串匹配 KMP
 ---
 
 

@@ -1,3 +1,19 @@
+---
+lang: zh-CN
+title: 03、学习心得
+description: 学习心得
+
+category: 
+    - 校招面试
+    - 校招指南
+    - 互联网
+    - 程序员
+    - 学习心得
+
+excerpt: 学习心得
+---
+
+
 # 03、BAT 师兄学习心得
 
 原文链接：[大厂师兄的复习心得](https://mp.weixin.qq.com/s/zBypZDI-VlDQ-K-9PITr_g)

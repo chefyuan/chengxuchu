@@ -2,6 +2,15 @@
 lang: zh-CN
 title: 2、BM
 description: 可能是全网最细的 BM。
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 字符串匹配 
+
+excerpt: 字符串匹配 BM
 ---
 
 

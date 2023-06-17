@@ -1,3 +1,21 @@
+---
+lang: zh-CN
+title: 05、Redis 学习路线
+description: Redis 学习路线
+
+category: 
+    - 校招面试
+    - 校招指南
+    - 互联网
+    - 程序员
+    - 学习路线
+    - Redis 学习路线
+
+excerpt: Redis 学习路线
+---
+
+
+
 # 05、Redis学习路线
 
 

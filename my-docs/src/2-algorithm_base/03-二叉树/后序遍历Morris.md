@@ -1,7 +1,17 @@
 ---
 lang: zh-CN
 title: 6、后序遍历Morris
-description: 看一遍就懂的后序遍历
+
+description: 二叉树后序遍历 Morris
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 二叉树遍历
+
+excerpt: 二叉树后序遍历Morris
 ---
 
 后序遍历的 Morris 方法也比之前两种代码稍微长一些，看着挺唬人,其实不难，和我们之前说的没差多少。下面我们一起来干掉它吧。

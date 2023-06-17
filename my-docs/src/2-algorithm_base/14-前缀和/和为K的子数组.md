@@ -1,7 +1,17 @@
 ---
 lang: zh-CN
 title: 02、和为K的子数组
-description: 很细。
+description: 刷题-前缀和
+
+category: 
+    - 数据结构
+    - 算法
+    - 算法基地
+    - 面试
+    - 刷题
+
+excerpt: 单调队列前缀和
+
 ---
 
 
